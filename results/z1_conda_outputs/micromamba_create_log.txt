@@ -1,0 +1,490 @@
+Fetch Shard Index for conda-forge/noarch                                                        ⧖ Starting
+Fetch Shard Index for conda-forge/noarch                                                  ✔ Done (0.2 sec)
+Fetch Shard Index for conda-forge/osx-arm64                                                     ⧖ Starting
+Fetch Shard Index for conda-forge/osx-arm64                                               ✔ Done (0.1 sec)
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                    ✔ Done (19.5 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.1 sec)
+
+Transaction
+
+  Prefix: /private/tmp/nqk_conda
+
+  Updating specs:
+
+   - python=3.14
+   - numpy=2.5.3
+   - scipy=1.18.0
+   - scikit-learn=1.9.1
+   - pandas=3.0.5
+   - matplotlib=3.11.1
+   - joblib=1.6.0
+   - pyarrow=25.0.1
+   - pytest=9.1.1
+   - pip
+
+
+  Package                                  Version  Build                 Channel          Size
+─────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _openmp_mutex                              4.5  8_kmp_llvm            conda-forge       8kB
+  + aws-c-auth                               1.0.0  h7ad4001_2            conda-forge     116kB
+  + aws-c-cal                                1.0.0  h50d513f_1            conda-forge      48kB
+  + aws-c-common                             1.0.6  h602ebc4_0            conda-forge     258kB
+  + aws-c-compression                        1.0.0  h50d513f_1            conda-forge      22kB
+  + aws-c-event-stream                       1.0.0  hecdd477_1            conda-forge      54kB
+  + aws-c-http                               1.0.0  h7b2e6b5_1            conda-forge     190kB
+  + aws-c-io                                 1.0.0  h49e100f_0            conda-forge     190kB
+  + aws-c-mqtt                               1.0.0  hfbb46d0_1            conda-forge     187kB
+  + aws-c-s3                                 1.1.3  hffd187b_0            conda-forge     143kB
+  + aws-c-sdkutils                           1.0.1  h8339b81_0            conda-forge      64kB
+  + aws-checksums                            1.0.0  h50d513f_0            conda-forge      92kB
+  + aws-crt-cpp                             0.43.8  h573b1c7_2            conda-forge     382kB
+  + aws-sdk-cpp                           1.11.905  hee9c064_1            conda-forge       3MB
+  + azure-core-cpp                          1.16.4  h4dc68b6_2            conda-forge     291kB
+  + azure-identity-cpp                      1.13.3  hc8e4f31_4            conda-forge     169kB
+  + azure-storage-blobs-cpp                12.19.0  hca1b0b9_0            conda-forge     450kB
+  + azure-storage-common-cpp               12.15.0  h22f15f8_1            conda-forge     136kB
+  + azure-storage-files-datalake-cpp       12.17.0  h3517be1_0            conda-forge     203kB
+  + brotli                                   1.2.1  hf00d406_1            conda-forge      21kB
+  + brotli-bin                               1.2.1  he4a93e4_1            conda-forge      19kB
+  + bzip2                                    1.0.8  h4e30115_10           conda-forge     125kB
+  + c-ares                                  1.34.9  h74c22ad_0            conda-forge     202kB
+  + ca-certificates                     2026.11.20  hbd8a1cb_0            conda-forge     124kB
+  + cairo                                   1.18.6  h580cee5_0            conda-forge     845kB
+  + cloudpickle                              3.1.3  pyh5ded981_0          conda-forge      28kB
+  + colorama                                 0.4.6  pyhd8ed1ab_1          conda-forge      27kB
+  + contourpy                                1.4.0  py314h1433326_2       conda-forge     293kB
+  + cycler                                  0.12.1  pyhcf101f3_2          conda-forge      15kB
+  + exceptiongroup                           1.3.2  pyh5ded981_0          conda-forge      25kB
+  + font-ttf-dejavu-sans-mono                 2.37  hab24e00_0            conda-forge     397kB
+  + font-ttf-inconsolata                     3.000  h77eed37_0            conda-forge      97kB
+  + font-ttf-source-code-pro                 2.038  h77eed37_0            conda-forge     701kB
+  + font-ttf-ubuntu                           0.83  h77eed37_4            conda-forge       2MB
+  + fontconfig                              2.18.4  he47a414_0            conda-forge     276kB
+  + fonts-conda-ecosystem                        1  0                     conda-forge       4kB
+  + fonts-conda-forge                            1  hc364b38_1            conda-forge       4kB
+  + fonttools                               4.68.0  py314he08ecf6_2       conda-forge       4MB
+  + freetype                                2.14.3  hce30654_2            conda-forge     175kB
+  + fribidi                                 1.0.18  hb001647_0            conda-forge      64kB
+  + gflags                                   2.3.1  ha89b795_0            conda-forge      94kB
+  + glog                                     0.7.1  h6f9ecc1_1            conda-forge     113kB
+  + graphite2                               1.3.15  h784d473_1            conda-forge      86kB
+  + icu                                       78.3  py310h579977c_2       conda-forge      14MB
+  + iniconfig                                2.3.1  pyhd8ed1ab_0          conda-forge      14kB
+  + joblib                                   1.6.0  pyhcf101f3_0          conda-forge     229kB
+  + kiwisolver                               1.5.1  py314h1433326_4       conda-forge      64kB
+  + krb5                                    1.22.2  h34f8a20_2            conda-forge       1MB
+  + lcms2                                     2.20  hce41798_0            conda-forge     213kB
+  + lerc                                     4.3.0  h0699d0c_0            conda-forge     188kB
+  + libabseil                           20260817.0  cxx17_h08226d7_2      conda-forge       1MB
+  + libarrow                                25.0.1  h5de85b5_11_cpu       conda-forge       4MB
+  + libarrow-acero                          25.0.1  h2c531f0_11_cpu       conda-forge     521kB
+  + libarrow-compute                        25.0.1  h5f17654_11_cpu       conda-forge       2MB
+  + libarrow-dataset                        25.0.1  h2c531f0_11_cpu       conda-forge     520kB
+  + libarrow-substrait                      25.0.1  h9cb542c_11_cpu       conda-forge     457kB
+  + libblas                                 3.11.0  12_h51639a9_openblas  conda-forge      18kB
+  + libbrotlicommon                          1.2.1  h1dcdb26_1            conda-forge      80kB
+  + libbrotlidec                             1.2.1  h5295a6a_1            conda-forge      30kB
+  + libbrotlienc                             1.2.1  h2ddc9cb_1            conda-forge     296kB
+  + libcblas                                3.11.0  12_hb0561ab_openblas  conda-forge      18kB
+  + libcrc32c                                1.1.2  ha89b795_0            conda-forge      24kB
+  + libcurl                                 8.23.0  h6651222_0            conda-forge     426kB
+  + libcxx                                  23.1.6  hc645fd0_0            conda-forge     567kB
+  + libdeflate                                1.26  h72bfca4_0            conda-forge      55kB
+  + libedit                           3.1.20260512  pl5321h26f1114_0      conda-forge     109kB
+  + libev                                     4.33  h1a92334_3            conda-forge      40kB
+  + libevent                                2.1.13  h4b5715a_0            conda-forge     370kB
+  + libexpat                                 2.9.0  h6111c0a_0            conda-forge      70kB
+  + libffi                                   3.7.0  h47dc5ef_1            conda-forge      44kB
+  + libfreetype                             2.14.3  hce30654_2            conda-forge       8kB
+  + libfreetype6                            2.14.3  h2ed5691_2            conda-forge     341kB
+  + libgcc                                  16.2.0  h3cf6597_7            conda-forge     366kB
+  + libgfortran                             16.2.0  h07b0088_7            conda-forge     100kB
+  + libgfortran5                            16.2.0  hdb7a957_7            conda-forge     555kB
+  + libglib                                 2.90.1  h412b552_4            conda-forge       5MB
+  + libgoogle-cloud                         3.14.1  hd4cea7e_0            conda-forge       2MB
+  + libgoogle-cloud-storage                 3.14.1  h456b9c5_0            conda-forge     675kB
+  + libgrpc                                 1.85.4  h365f53a_0            conda-forge       5MB
+  + libharfbuzz                             15.0.0  hcda0f7c_0            conda-forge       1MB
+  + libiconv                                  1.18  he4c29f2_3            conda-forge     751kB
+  + libintl                                    1.0  hae62183_1            conda-forge      76kB
+  + libjpeg-turbo                            3.2.1  hb001647_0            conda-forge     556kB
+  + liblapack                               3.11.0  12_hd9741b5_openblas  conda-forge      18kB
+  + liblzma                                  5.8.3  h8088a28_1            conda-forge      92kB
+  + libmpdec                                 4.0.0  h84a0fba_2            conda-forge      73kB
+  + libnanoarrow                             0.9.0  hf314aa5_6            conda-forge     220kB
+  + libnghttp2                              1.71.0  h29223de_0            conda-forge     672kB
+  + libopenblas                             0.3.34  openmp_h5e6e99c_1     conda-forge       4MB
+  + libopentelemetry-cpp                    1.30.0  hd13ea3c_1            conda-forge     712kB
+  + libopentelemetry-cpp-headers            1.30.0  hce30654_1            conda-forge     439kB
+  + libparquet                              25.0.1  h535aa54_11_cpu       conda-forge       1MB
+  + libpng                                  1.6.59  hf5e6511_0            conda-forge     290kB
+  + libprotobuf                             7.35.1  hcde48f4_4            conda-forge       3MB
+  + libpsl                                  0.23.1  hdb0c161_1            conda-forge      73kB
+  + libpython                              3.14.10  h281bc5c_100_cp314    conda-forge       2MB
+  + libraqm                                 0.11.0  h45af499_0            conda-forge      31kB
+  + libre2-11                           2025.11.05  he907333_4            conda-forge     166kB
+  + libsqlite                               3.54.1  hca69786_0            conda-forge     953kB
+  + libssh2                                 1.11.1  hbf2880b_2            conda-forge     286kB
+  + libthrift                               0.25.0  h7c0a2d5_2            conda-forge     360kB
+  + libtiff                                  4.7.2  h87d37ca_2            conda-forge     380kB
+  + libutf8proc                             2.12.0  habab8cb_0            conda-forge      90kB
+  + libwebp-base                             1.6.0  h202fb40_1            conda-forge     295kB
+  + libxcb                                  1.17.0  hbffa61f_3            conda-forge     326kB
+  + libxml2                                 2.15.4  h550178d_1            conda-forge      41kB
+  + libxml2-16                              2.15.4  heb56d2d_1            conda-forge     469kB
+  + libzlib                                  1.3.2  h8088a28_3            conda-forge      48kB
+  + llvm-openmp                             23.1.6  hdb3d66b_0            conda-forge     288kB
+  + lz4-c                                   1.11.1  ha89b795_0            conda-forge     186kB
+  + matplotlib                              3.11.1  py314h314fc0d_2       conda-forge      15kB
+  + matplotlib-base                         3.11.1  py314h27b0870_2       conda-forge       9MB
+  + munkres                                  1.1.4  pyhd8ed1ab_1          conda-forge      16kB
+  + narwhals                                2.29.0  pyh5ded981_0          conda-forge     316kB
+  + ncurses                                    6.6  he64c551_1            conda-forge     804kB
+  + nlohmann_json                           3.12.0  h784d473_2            conda-forge     138kB
+  + numpy                                    2.5.3  py314he06036b_0       conda-forge       7MB
+  + openjpeg                                 2.5.4  h4d1e80c_2            conda-forge     378kB
+  + openssl                                  3.6.5  h55eecbc_0            conda-forge       3MB
+  + orc                                      2.3.1  h7cc4c93_4            conda-forge     521kB
+  + packaging                                 26.3  pyhc364b38_0          conda-forge     116kB
+  + pandas                                   3.0.5  py314he609de1_0       conda-forge      14MB
+  + pcre2                                    10.49  he63d830_0            conda-forge     866kB
+  + pillow                                  13.0.0  py314h4efa0c3_1       conda-forge       1MB
+  + pip                                     26.2.2  pyh145f28c_2          conda-forge       1MB
+  + pixman                                  0.46.4  h784d473_3            conda-forge     199kB
+  + pluggy                                   1.7.0  pyh5ded981_0          conda-forge      30kB
+  + prometheus-cpp                           1.3.0  hfe14bbf_2            conda-forge     173kB
+  + pthread-stubs                              0.4  hb001647_1004         conda-forge      10kB
+  + pyarrow                                 25.0.1  py314he55896b_0       conda-forge      26kB
+  + pyarrow-core                            25.0.1  py314h7e6a90b_0_cpu   conda-forge       4MB
+  + pygments                                2.21.0  pyhcf101f3_0          conda-forge     959kB
+  + pyparsing                                3.3.3  pyh5ded981_0          conda-forge     114kB
+  + pytest                                   9.1.1  pyhc364b38_2          conda-forge     307kB
+  + python                                 3.14.10  h0ae1c2c_100_cp314    conda-forge      12MB
+  + python-dateutil                          4.0.0  pyh5ded981_0          conda-forge      90kB
+  + python-tzdata                           2026.6  pyh5ded981_0          conda-forge     141kB
+  + python_abi                                3.14  9_cp314               conda-forge       7kB
+  + qhull                                   2020.2  h48a1422_6            conda-forge     518kB
+  + re2                                 2025.11.05  hb8e9f31_4            conda-forge      28kB
+  + readline                                   8.3  h8b90a29_1            conda-forge     314kB
+  + s2n                                      1.7.7  h430f396_0            conda-forge     278kB
+  + scikit-learn                             1.9.1  np2py314hf2dd71b_1    conda-forge      10MB
+  + scipy                                   1.18.0  py314h18e1515_0       conda-forge      14MB
+  + snappy                                   1.3.1  h7b3374d_1            conda-forge      42kB
+  + threadpoolctl                            3.8.0  pyhc455866_0          conda-forge      37kB
+  + tk                                      8.6.13  hbeba79b_4            conda-forge       3MB
+  + tomli                                    2.5.0  pyh5ded981_0          conda-forge      22kB
+  + tornado                                  6.6.1  py314hef190fd_1       conda-forge       1MB
+  + typing_extensions                       4.16.0  pyhcf101f3_0          conda-forge      53kB
+  + tzdata                                   2026e  h5d301ff_0            conda-forge     119kB
+  + xorg-libxau                             1.0.12  hb001647_2            conda-forge      17kB
+  + xorg-libxdmcp                            1.1.5  hb001647_2            conda-forge      21kB
+  + zlib                                     1.3.2  h8088a28_3            conda-forge      82kB
+  + zlib-ng                                  2.3.3  h31dac16_1            conda-forge      96kB
+  + zstd                                     1.5.7  hf451053_7            conda-forge     434kB
+
+  Summary:
+
+  Install: 156 packages
+
+  Total download: 163MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking libpython-3.14.10-h281bc5c_100_cp314
+Linking llvm-openmp-23.1.6-hdb3d66b_0
+Linking libcxx-23.1.6-hc645fd0_0
+Linking libutf8proc-2.12.0-habab8cb_0
+Linking c-ares-1.34.9-h74c22ad_0
+Linking libopentelemetry-cpp-headers-1.30.0-hce30654_1
+Linking libzlib-1.3.2-h8088a28_3
+Linking libbrotlicommon-1.2.1-h1dcdb26_1
+Linking bzip2-1.0.8-h4e30115_10
+Linking fribidi-1.0.18-hb001647_0
+Linking aws-c-common-1.0.6-h602ebc4_0
+Linking icu-78.3-py310h579977c_2
+Linking libexpat-2.9.0-h6111c0a_0
+Linking nlohmann_json-3.12.0-h784d473_2
+Linking liblzma-5.8.3-h8088a28_1
+Linking libiconv-1.18-he4c29f2_3
+Linking libffi-3.7.0-h47dc5ef_1
+Linking libjpeg-turbo-3.2.1-hb001647_0
+Linking ncurses-6.6-he64c551_1
+Linking libmpdec-4.0.0-h84a0fba_2
+Linking libdeflate-1.26-h72bfca4_0
+Linking libwebp-base-1.6.0-h202fb40_1
+Linking xorg-libxdmcp-1.1.5-hb001647_2
+Linking xorg-libxau-1.0.12-hb001647_2
+Linking pthread-stubs-0.4-hb001647_1004
+Linking libev-4.33-h1a92334_3
+Linking _openmp_mutex-4.5-8_kmp_llvm
+Linking graphite2-1.3.15-h784d473_1
+Linking zlib-ng-2.3.3-h31dac16_1
+Linking lerc-4.3.0-h0699d0c_0
+Linking libcrc32c-1.1.2-ha89b795_0
+Linking qhull-2020.2-h48a1422_6
+Linking pixman-0.46.4-h784d473_3
+Linking gflags-2.3.1-ha89b795_0
+Linking snappy-1.3.1-h7b3374d_1
+Linking libabseil-20260817.0-cxx17_h08226d7_2
+Linking lz4-c-1.11.1-ha89b795_0
+Linking tk-8.6.13-hbeba79b_4
+Linking zlib-1.3.2-h8088a28_3
+Linking libpng-1.6.59-hf5e6511_0
+Linking zstd-1.5.7-hf451053_7
+Linking libbrotlienc-1.2.1-h2ddc9cb_1
+Linking libbrotlidec-1.2.1-h5295a6a_1
+Linking pcre2-10.49-he63d830_0
+Linking aws-c-cal-1.0.0-h50d513f_1
+Linking aws-c-sdkutils-1.0.1-h8339b81_0
+Linking aws-c-compression-1.0.0-h50d513f_1
+Linking aws-checksums-1.0.0-h50d513f_0
+Linking libpsl-0.23.1-hdb0c161_1
+Linking libsqlite-3.54.1-hca69786_0
+Linking libintl-1.0-hae62183_1
+Linking libxml2-16-2.15.4-heb56d2d_1
+Linking libedit-3.1.20260512-pl5321h26f1114_0
+Linking readline-8.3-h8b90a29_1
+Linking libxcb-1.17.0-hbffa61f_3
+Linking libgcc-16.2.0-h3cf6597_7
+Linking glog-0.7.1-h6f9ecc1_1
+Linking libre2-11-2025.11.05-he907333_4
+Linking libprotobuf-7.35.1-hcde48f4_4
+Linking libfreetype6-2.14.3-h2ed5691_2
+Linking libtiff-4.7.2-h87d37ca_2
+Linking libnanoarrow-0.9.0-hf314aa5_6
+Linking brotli-bin-1.2.1-he4a93e4_1
+Linking libglib-2.90.1-h412b552_4
+Linking libxml2-2.15.4-h550178d_1
+Linking libgfortran5-16.2.0-hdb7a957_7
+Linking re2-2025.11.05-hb8e9f31_4
+Linking libfreetype-2.14.3-hce30654_2
+Linking openjpeg-2.5.4-h4d1e80c_2
+Linking lcms2-2.20-hce41798_0
+Linking brotli-1.2.1-hf00d406_1
+Linking libgfortran-16.2.0-h07b0088_7
+Linking fontconfig-2.18.4-he47a414_0
+Linking freetype-2.14.3-hce30654_2
+Linking libopenblas-0.3.34-openmp_h5e6e99c_1
+Linking libblas-3.11.0-12_h51639a9_openblas
+Linking libcblas-3.11.0-12_hb0561ab_openblas
+Linking liblapack-3.11.0-12_hd9741b5_openblas
+Linking python_abi-3.14-9_cp314
+Linking ca-certificates-2026.11.20-hbd8a1cb_0
+Linking tzdata-2026e-h5d301ff_0
+Linking font-ttf-dejavu-sans-mono-2.37-hab24e00_0
+Linking font-ttf-inconsolata-3.000-h77eed37_0
+Linking font-ttf-source-code-pro-2.038-h77eed37_0
+Linking font-ttf-ubuntu-0.83-h77eed37_4
+Linking fonts-conda-forge-1-hc364b38_1
+Linking fonts-conda-ecosystem-1-0
+Linking openssl-3.6.5-h55eecbc_0
+Linking orc-2.3.1-h7cc4c93_4
+Linking cairo-1.18.6-h580cee5_0
+Linking libssh2-1.11.1-hbf2880b_2
+Linking krb5-1.22.2-h34f8a20_2
+Linking libnghttp2-1.71.0-h29223de_0
+Linking s2n-1.7.7-h430f396_0
+Linking libevent-2.1.13-h4b5715a_0
+Linking libgrpc-1.85.4-h365f53a_0
+Linking python-3.14.10-h0ae1c2c_100_cp314
+Linking libharfbuzz-15.0.0-hcda0f7c_0
+Linking libcurl-8.23.0-h6651222_0
+Linking aws-c-io-1.0.0-h49e100f_0
+Linking libthrift-0.25.0-h7c0a2d5_2
+Linking kiwisolver-1.5.1-py314h1433326_4
+Linking pillow-13.0.0-py314h4efa0c3_1
+Linking tornado-6.6.1-py314hef190fd_1
+Linking numpy-2.5.3-py314he06036b_0
+Linking libraqm-0.11.0-h45af499_0
+Linking prometheus-cpp-1.3.0-hfe14bbf_2
+Linking azure-core-cpp-1.16.4-h4dc68b6_2
+Linking aws-c-event-stream-1.0.0-hecdd477_1
+Linking aws-c-http-1.0.0-h7b2e6b5_1
+Linking contourpy-1.4.0-py314h1433326_2
+Linking scipy-1.18.0-py314h18e1515_0
+Linking libopentelemetry-cpp-1.30.0-hd13ea3c_1
+Linking azure-identity-cpp-1.13.3-hc8e4f31_4
+Linking azure-storage-common-cpp-12.15.0-h22f15f8_1
+Linking aws-c-mqtt-1.0.0-hfbb46d0_1
+Linking aws-c-auth-1.0.0-h7ad4001_2
+Linking libgoogle-cloud-3.14.1-hd4cea7e_0
+Linking azure-storage-blobs-cpp-12.19.0-hca1b0b9_0
+Linking aws-c-s3-1.1.3-hffd187b_0
+Linking libgoogle-cloud-storage-3.14.1-h456b9c5_0
+Linking azure-storage-files-datalake-cpp-12.17.0-h3517be1_0
+Linking aws-crt-cpp-0.43.8-h573b1c7_2
+Linking aws-sdk-cpp-1.11.905-hee9c064_1
+Linking libarrow-25.0.1-h5de85b5_11_cpu
+Linking libparquet-25.0.1-h535aa54_11_cpu
+Linking libarrow-compute-25.0.1-h5f17654_11_cpu
+Linking libarrow-acero-25.0.1-h2c531f0_11_cpu
+Linking pyarrow-core-25.0.1-py314h7e6a90b_0_cpu
+Linking libarrow-dataset-25.0.1-h2c531f0_11_cpu
+Linking libarrow-substrait-25.0.1-h9cb542c_11_cpu
+Linking pyarrow-25.0.1-py314he55896b_0
+Linking typing_extensions-4.16.0-pyhcf101f3_0
+Linking munkres-1.1.4-pyhd8ed1ab_1
+Linking cycler-0.12.1-pyhcf101f3_2
+Linking pyparsing-3.3.3-pyh5ded981_0
+Linking colorama-0.4.6-pyhd8ed1ab_1
+Linking pluggy-1.7.0-pyh5ded981_0
+Linking iniconfig-2.3.1-pyhd8ed1ab_0
+Linking tomli-2.5.0-pyh5ded981_0
+Linking pygments-2.21.0-pyhcf101f3_0
+Linking packaging-26.3-pyhc364b38_0
+Linking python-tzdata-2026.6-pyh5ded981_0
+Linking cloudpickle-3.1.3-pyh5ded981_0
+Linking narwhals-2.29.0-pyh5ded981_0
+Linking threadpoolctl-3.8.0-pyhc455866_0
+Linking pip-26.2.2-pyh145f28c_2
+Linking exceptiongroup-1.3.2-pyh5ded981_0
+Linking python-dateutil-4.0.0-pyh5ded981_0
+Linking joblib-1.6.0-pyhcf101f3_0
+Linking pytest-9.1.1-pyhc364b38_2
+Linking fonttools-4.68.0-py314he08ecf6_2
+Linking pandas-3.0.5-py314he609de1_0
+Linking scikit-learn-1.9.1-np2py314hf2dd71b_1
+Linking matplotlib-base-3.11.1-py314h27b0870_2
+Linking matplotlib-3.11.1-py314h314fc0d_2
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    micromamba activate /private/tmp/nqk_conda
+
+Or to execute a single command in this environment, use:
+
+    micromamba run -p /private/tmp/nqk_conda mycommand
+
+warning  libmamba You are using 'pip' as an additional package manager.
+    Be aware that packages installed with 'pip' are managed independently from 'conda-forge' channel.
+
+Installing pip packages: qiskit==2.5.2, qiskit-aer==0.17.2, qiskit-ibm-runtime==0.49.0
+WARNING: Cache entry deserialization failed, entry ignored
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting qiskit==2.5.2 (from -r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 1))
+  Using cached qiskit-2.5.2-cp310-abi3-macosx_11_0_arm64.whl.metadata (14 kB)
+Collecting qiskit-aer==0.17.2 (from -r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 2))
+  Using cached qiskit_aer-0.17.2-cp314-cp314-macosx_11_0_arm64.whl.metadata (8.2 kB)
+Collecting qiskit-ibm-runtime==0.49.0 (from -r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached qiskit_ibm_runtime-0.49.0-py3-none-any.whl.metadata (23 kB)
+Requirement already satisfied: numpy<3,>=2.0 in /private/tmp/nqk_conda/lib/python3.14/site-packages (from qiskit==2.5.2->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 1)) (2.5.3)
+Requirement already satisfied: scipy>=1.14 in /private/tmp/nqk_conda/lib/python3.14/site-packages (from qiskit==2.5.2->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 1)) (1.18.0)
+Collecting rustworkx>=0.15.0 (from qiskit==2.5.2->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 1))
+  Using cached rustworkx-0.18.1-cp310-abi3-macosx_11_0_arm64.whl.metadata (10 kB)
+Collecting dill>=0.3 (from qiskit==2.5.2->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 1))
+  Using cached dill-0.4.1-py3-none-any.whl.metadata (10 kB)
+Collecting stevedore>=3.0.0 (from qiskit==2.5.2->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 1))
+  Downloading stevedore-5.10.0-py3-none-any.whl.metadata (2.3 kB)
+Requirement already satisfied: typing-extensions in /private/tmp/nqk_conda/lib/python3.14/site-packages (from qiskit==2.5.2->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 1)) (4.16.0)
+Collecting psutil>=5 (from qiskit-aer==0.17.2->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 2))
+  Using cached psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl.metadata (22 kB)
+Requirement already satisfied: python-dateutil>=2.8.0 in /private/tmp/nqk_conda/lib/python3.14/site-packages (from qiskit-aer==0.17.2->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 2)) (4.0.0)
+Collecting requests>=2.32.4 (from qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting requests-ntlm>=1.1.0 (from qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached requests_ntlm-1.3.0-py3-none-any.whl.metadata (2.4 kB)
+Collecting urllib3>=2.4.0 (from qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting ibm-platform-services>=0.61.1 (from qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached ibm_platform_services-0.77.2-py3-none-any.whl.metadata (9.3 kB)
+Collecting ibm-quantum-schemas<1,>=0.10.20260723 (from qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached ibm_quantum_schemas-0.13.20261016-py3-none-any.whl.metadata (3.1 kB)
+Collecting pydantic>=2.13.0 (from qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Downloading pydantic-2.14.4-py3-none-any.whl.metadata (143 kB)
+Collecting pybase64>=1.4.0 (from qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Downloading pybase64-1.5.2-cp314-cp314-macosx_11_0_arm64.whl.metadata (11 kB)
+Collecting samplomatic>=0.18.0 (from qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached samplomatic-0.21.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting qiskit_qasm3_import<1.0.0,>=0.6.0 (from ibm-quantum-schemas<1,>=0.10.20260723->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached qiskit_qasm3_import-0.6.0-py3-none-any.whl.metadata (7.2 kB)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.13.0->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.50.5 (from pydantic>=2.13.0->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Downloading pydantic_core-2.50.5-cp314-cp314-macosx_11_0_arm64.whl.metadata (6.6 kB)
+Collecting typing-inspection>=0.4.4 (from pydantic>=2.13.0->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Downloading typing_inspection-0.4.5-py3-none-any.whl.metadata (2.6 kB)
+Collecting openqasm3<2.0,>=0.4 (from openqasm3[parser]<2.0,>=0.4->qiskit_qasm3_import<1.0.0,>=0.6.0->ibm-quantum-schemas<1,>=0.10.20260723->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Downloading openqasm3-1.0.2-py3-none-any.whl.metadata (6.0 kB)
+Collecting antlr4_python3_runtime<4.14,>=4.7 (from openqasm3[parser]<2.0,>=0.4->qiskit_qasm3_import<1.0.0,>=0.6.0->ibm-quantum-schemas<1,>=0.10.20260723->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached antlr4_python3_runtime-4.13.2-py3-none-any.whl.metadata (304 bytes)
+Collecting ibm_cloud_sdk_core<4.0.0,>=3.28.1 (from ibm-platform-services>=0.61.1->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Downloading ibm_cloud_sdk_core-3.28.2-py3-none-any.whl.metadata (8.7 kB)
+Collecting python-dateutil>=2.8.0 (from qiskit-aer==0.17.2->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 2))
+  Using cached python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)
+Collecting PyJWT<3.0.0,>=2.11.0 (from ibm_cloud_sdk_core<4.0.0,>=3.28.1->ibm-platform-services>=0.61.1->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached pyjwt-2.15.1-py3-none-any.whl.metadata (3.5 kB)
+Collecting six>=1.6 (from python-dateutil>=2.8.0->qiskit-aer==0.17.2->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 2))
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Requirement already satisfied: tzdata in /private/tmp/nqk_conda/lib/python3.14/site-packages (from python-dateutil>=2.8.0->qiskit-aer==0.17.2->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 2)) (2026.6)
+Collecting charset_normalizer<4,>=2 (from requests>=2.32.4->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Downloading charset_normalizer-3.5.3-cp314-cp314-macosx_10_15_universal2.whl.metadata (43 kB)
+Collecting idna<4,>=2.5 (from requests>=2.32.4->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting certifi>=2023.5.7 (from requests>=2.32.4->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Downloading certifi-2026.11.20-py3-none-any.whl.metadata (2.5 kB)
+Collecting cryptography>=1.3 (from requests-ntlm>=1.1.0->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached cryptography-50.0.2-cp311-abi3-macosx_11_0_arm64.whl.metadata (4.4 kB)
+Collecting pyspnego>=0.4.0 (from requests-ntlm>=1.1.0->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached pyspnego-0.12.4-py3-none-any.whl.metadata (4.2 kB)
+Collecting cffi>=2.0.0 (from cryptography>=1.3->requests-ntlm>=1.1.0->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached cffi-2.1.1-cp314-cp314-macosx_11_0_arm64.whl.metadata (2.5 kB)
+Collecting pycparser (from cffi>=2.0.0->cryptography>=1.3->requests-ntlm>=1.1.0->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+Collecting orjson>=3.9.0 (from samplomatic>=0.18.0->qiskit-ibm-runtime==0.49.0->-r /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/mambaf8xb8vbpu83 (line 3))
+  Using cached orjson-3.13.0-cp314-cp314-macosx_15_0_arm64.whl.metadata (42 kB)
+Using cached qiskit-2.5.2-cp310-abi3-macosx_11_0_arm64.whl (8.7 MB)
+Using cached qiskit_aer-0.17.2-cp314-cp314-macosx_11_0_arm64.whl (2.1 MB)
+Using cached qiskit_ibm_runtime-0.49.0-py3-none-any.whl (2.0 MB)
+Using cached ibm_quantum_schemas-0.13.20261016-py3-none-any.whl (122 kB)
+Downloading pydantic-2.14.4-py3-none-any.whl (494 kB)
+Downloading pydantic_core-2.50.5-cp314-cp314-macosx_11_0_arm64.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 33.8 MB/s  0:00:00
+Using cached qiskit_qasm3_import-0.6.0-py3-none-any.whl (29 kB)
+Downloading openqasm3-1.0.2-py3-none-any.whl (551 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 551.8/551.8 kB 22.9 MB/s  0:00:00
+Using cached antlr4_python3_runtime-4.13.2-py3-none-any.whl (144 kB)
+Using cached annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Using cached dill-0.4.1-py3-none-any.whl (120 kB)
+Using cached ibm_platform_services-0.77.2-py3-none-any.whl (412 kB)
+Downloading ibm_cloud_sdk_core-3.28.2-py3-none-any.whl (77 kB)
+Using cached pyjwt-2.15.1-py3-none-any.whl (33 kB)
+Using cached python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+Downloading charset_normalizer-3.5.3-cp314-cp314-macosx_10_15_universal2.whl (388 kB)
+Using cached idna-3.20-py3-none-any.whl (69 kB)
+Using cached urllib3-2.8.0-py3-none-any.whl (135 kB)
+Downloading certifi-2026.11.20-py3-none-any.whl (127 kB)
+Using cached psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl (129 kB)
+Downloading pybase64-1.5.2-cp314-cp314-macosx_11_0_arm64.whl (40 kB)
+Using cached requests_ntlm-1.3.0-py3-none-any.whl (6.6 kB)
+Using cached cryptography-50.0.2-cp311-abi3-macosx_11_0_arm64.whl (3.9 MB)
+Using cached cffi-2.1.1-cp314-cp314-macosx_11_0_arm64.whl (184 kB)
+Using cached pyspnego-0.12.4-py3-none-any.whl (131 kB)
+Using cached rustworkx-0.18.1-cp310-abi3-macosx_11_0_arm64.whl (2.1 MB)
+Using cached samplomatic-0.21.0-py3-none-any.whl (234 kB)
+Using cached orjson-3.13.0-cp314-cp314-macosx_15_0_arm64.whl (123 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading stevedore-5.10.0-py3-none-any.whl (56 kB)
+Downloading typing_inspection-0.4.5-py3-none-any.whl (14 kB)
+Using cached pycparser-3.12-py3-none-any.whl (62 kB)
+Installing collected packages: openqasm3, antlr4_python3_runtime, urllib3, typing-inspection, stevedore, six, rustworkx, PyJWT, pydantic-core, pycparser, pybase64, psutil, orjson, idna, dill, charset_normalizer, certifi, annotated-types, requests, qiskit, python-dateutil, pydantic, cffi, samplomatic, qiskit_qasm3_import, qiskit-aer, ibm_cloud_sdk_core, cryptography, pyspnego, ibm-quantum-schemas, ibm-platform-services, requests-ntlm, qiskit-ibm-runtime
+  Attempting uninstall: python-dateutil
+    Found existing installation: python-dateutil 4.0.0
+    Uninstalling python-dateutil-4.0.0:
+      Successfully uninstalled python-dateutil-4.0.0
+
+Successfully installed PyJWT-2.15.1 annotated-types-0.8.0 antlr4_python3_runtime-4.13.2 certifi-2026.11.20 cffi-2.1.1 charset_normalizer-3.5.3 cryptography-50.0.2 dill-0.4.1 ibm-platform-services-0.77.2 ibm-quantum-schemas-0.13.20261016 ibm_cloud_sdk_core-3.28.2 idna-3.20 openqasm3-1.0.2 orjson-3.13.0 psutil-7.2.2 pybase64-1.5.2 pycparser-3.12 pydantic-2.14.4 pydantic-core-2.50.5 pyspnego-0.12.4 python-dateutil-3.0.0 qiskit-2.5.2 qiskit-aer-0.17.2 qiskit-ibm-runtime-0.49.0 qiskit_qasm3_import-0.6.0 requests-2.34.2 requests-ntlm-1.3.0 rustworkx-0.18.1 samplomatic-0.21.0 six-1.17.0 stevedore-5.10.0 typing-inspection-0.4.5 urllib3-2.8.0
+/tmp/mm/bin/micromamba create -y -f environment.yml -p /tmp/nqk_conda  14.86s user 17.70s system 46% cpu 1:10.07 total

@@ -1,0 +1,109 @@
+{
+ "experiment": "Z1_conda_check",
+ "config": {
+  "env": "micromamba 2.10.0, environment.yml unchanged, conda-forge + pip block",
+  "tol": 1e-09
+ },
+ "provenance": {
+  "python": "3.14.10",
+  "numpy": "2.5.3",
+  "scipy": "1.18.0",
+  "sklearn": "1.9.1",
+  "machine": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "config_hash": "7924247d717c",
+  "date": "2026-11-23"
+ },
+ "wall_time_s": 0.79,
+ "results": {
+  "versions": {
+   "numpy": {
+    "pinned": "2.5.3",
+    "installed": "2.5.3",
+    "equal": true
+   },
+   "scipy": {
+    "pinned": "1.18.0",
+    "installed": "1.18.0",
+    "equal": true
+   },
+   "scikit-learn": {
+    "pinned": "1.9.1",
+    "installed": "1.9.1",
+    "equal": true
+   },
+   "pandas": {
+    "pinned": "3.0.5",
+    "installed": "3.0.5",
+    "equal": true
+   },
+   "matplotlib": {
+    "pinned": "3.11.1",
+    "installed": "3.11.1",
+    "equal": true
+   },
+   "joblib": {
+    "pinned": "1.6.0",
+    "installed": "1.6.0",
+    "equal": true
+   },
+   "pyarrow": {
+    "pinned": "25.0.1",
+    "installed": "25.0.1",
+    "equal": true
+   },
+   "pytest": {
+    "pinned": "9.1.1",
+    "installed": "9.1.1",
+    "equal": true
+   },
+   "qiskit": {
+    "pinned": "2.5.2",
+    "installed": "2.5.2",
+    "equal": true
+   },
+   "qiskit-aer": {
+    "pinned": "0.17.2",
+    "installed": "0.17.2",
+    "equal": true
+   },
+   "qiskit-ibm-runtime": {
+    "pinned": "0.49.0",
+    "installed": "0.49.0",
+    "equal": true
+   }
+  },
+  "all_pins_equal": true,
+  "python_conda": "3.14.10",
+  "comparisons": {
+   "Y1_arm_regression": {
+    "max_abs_diff": 7.105427357601002e-15,
+    "n_compared": 763,
+    "committed_python": "3.14.5",
+    "conda_python": "3.14.10",
+    "ok": true
+   },
+   "Y3_S_exponent": {
+    "max_abs_diff": 8.881784197001252e-15,
+    "n_compared": 370,
+    "committed_python": "3.14.5",
+    "conda_python": "3.14.10",
+    "ok": true
+   },
+   "Y4_split_overlap": {
+    "max_abs_diff": 0,
+    "n_compared": 384,
+    "committed_python": "3.14.5",
+    "conda_python": "3.14.10",
+    "ok": true
+   },
+   "X1_E6_fitted_rho": {
+    "max_abs_diff": 5.115907697472721e-12,
+    "n_compared": 5558,
+    "committed_python": "3.14.5",
+    "conda_python": "3.14.10",
+    "ok": true
+   }
+  },
+  "all_ok": true
+ }
+}

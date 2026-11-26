@@ -1,0 +1,18 @@
+X4 s_hw [0.939 0.865 0.795 0.512 0.294 0.334 0.373] layers [ 2  4  6 12 20 28 36]
+rates {'all': -0.03223162860865243, 'early': -0.06194275751345327, 'late': 0.014875235168953678, 'late_minus_early': 0.07681799268240694} CI {'all': [-0.03289728781381073, -0.03163693160644286, 0.00032444513257300875], 'early': [-0.06449150046306597, -0.05956619106080858, 0.0013370125106378719], 'late': [0.0122836013895353, 0.017713607530695716, 0.0013764603124010732], 'late_minus_early': [0.07310305925607119, 0.08081329059013709, 0.0019664052890537415]} geometric False
+AUC 1 0 {'fixed': 0.98, 'fixed_centred': 0.98, 'cv_unc': 1.0, 'cv_cen': 1.0, 'cnr_c1': 0.98, 'cnr_c2': 0.96, 'ideal_fixed': 1.0}
+AUC 2 0 {'fixed': 0.98, 'fixed_centred': 0.98, 'cv_unc': 0.98, 'cv_cen': 1.0, 'cnr_c1': 0.98, 'cnr_c2': 0.98, 'ideal_fixed': 1.0}
+AUC 3 0 {'fixed': 0.98, 'fixed_centred': 0.98, 'cv_unc': 0.88, 'cv_cen': 0.88, 'cnr_c1': 0.98, 'cnr_c2': 0.98, 'ideal_fixed': 1.0}
+AUC 2 1 {'fixed': 0.76, 'fixed_centred': 0.73, 'cv_unc': 0.92, 'cv_cen': 0.92, 'cnr_c1': 0.92, 'cnr_c2': 0.98, 'ideal_fixed': 1.0}
+AUC 2 2 {'fixed': 0.8, 'fixed_centred': 0.8, 'cv_unc': 0.88, 'cv_cen': 0.63, 'cnr_c1': 0.8, 'cnr_c2': 0.8, 'ideal_fixed': 1.0}
+AUC 2 3 {'fixed': 0.47, 'fixed_centred': 0.55, 'cv_unc': 0.27, 'cv_cen': 0.47, 'cnr_c1': 0.47, 'cnr_c2': 0.69, 'ideal_fixed': 1.0}
+AUC 2 4 {'fixed': 0.67, 'fixed_centred': 0.55, 'cv_unc': 0.14, 'cv_cen': 0.22, 'cnr_c1': 0.63, 'cnr_c2': 0.67, 'ideal_fixed': 1.0}
+boot nf9 {'fixed': {'mean': 0.6091836734693878, 'sd': 0.07024530114079884, 'ci': [0.4693877551020408, 0.6938775510204082]}, 'fixed_centred': {'mean': 0.5948979591836735, 'sd': 0.08026274014277728, 'ci': [0.4489795918367347, 0.6938775510204082]}, 'cv_unc': {'mean': 0.17204081632653057, 'sd': 0.0755518362892693, 'ci': [0.10204081632653061, 0.367857142857143]}, 'cv_cen': {'mean': 0.24846938775510202, 'sd': 0.07705095216470535, 'ci': [0.163265306122449, 0.4489795918367347]}, 'cnr_c1': {'mean': 0.5881632653061224, 'sd': 0.11316432343407694, 'ci': [0.40765306122448974, 0.7964285714285715]}, 'cnr_c2': {'mean': 0.6220408163265305, 'sd': 0.07113525782823203, 'ci': [0.4489795918367347, 0.6938775510204082]}}
+paired {'cnr_c1-fixed': (-0.021, [-0.245, 0.245]), 'cnr_c1-best_cv': (0.329, [-0.001, 0.592]), 'cnr_c1-cv_cen': (0.34, [0.02, 0.592]), 'cnr_c2-fixed': (0.013, [-0.143, 0.163]), 'cnr_c2-best_cv': (0.362, [0.163, 0.51]), 'cnr_c2-cv_cen': (0.374, [0.163, 0.51])}
+SUB nf 1 S 256 {'fixed': 0.9, 'fixed_centred': 0.897, 'cv_unc': 0.89, 'cv_cen': 0.884, 'cnr_c1': 0.974, 'cnr_c2': 0.966}
+SUB nf 1 S 1024 {'fixed': 0.98, 'fixed_centred': 0.98, 'cv_unc': 0.98, 'cv_cen': 1.0, 'cnr_c1': 0.98, 'cnr_c2': 0.98}
+SUB nf 3 S 256 {'fixed': 0.811, 'fixed_centred': 0.81, 'cv_unc': 0.808, 'cv_cen': 0.804, 'cnr_c1': 0.826, 'cnr_c2': 0.966}
+SUB nf 3 S 1024 {'fixed': 0.755, 'fixed_centred': 0.735, 'cv_unc': 0.918, 'cv_cen': 0.918, 'cnr_c1': 0.918, 'cnr_c2': 0.98}
+SUB nf 9 S 256 {'fixed': 0.553, 'fixed_centred': 0.554, 'cv_unc': 0.311, 'cv_cen': 0.402, 'cnr_c1': 0.578, 'cnr_c2': 0.372}
+SUB nf 9 S 1024 {'fixed': 0.593, 'fixed_centred': 0.59, 'cv_unc': 0.236, 'cv_cen': 0.323, 'cnr_c1': 0.578, 'cnr_c2': 0.525}
+saved /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/results/X4_HW2_repeat.json in 7.4s

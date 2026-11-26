@@ -1,0 +1,119 @@
+jobs done: {'A-R': True, 'B-R': True, 'A-A': True, 'B-A': True, 'A-T': True, 'B-T': True, 'A-Rrep': True}
+A s [0.93  0.82  0.601 0.34  0.202 0.187] se [0.008 0.017 0.026 0.022 0.031 0.039] rise 0.02368 [0.01843, 0.02885] misfit [1.3 2.8 4.1 3.5 4.3 5.6]
+B s [0.934 0.87  0.779 0.655 0.539 0.411] se [0.008 0.008 0.023 0.034 0.048 0.052] rise 0.00018 [-0.00226, 0.00276] misfit [1.3 1.2 2.9 4.3 5.8 6.3]
+aer_A s [0.936 0.888 0.81  0.731 0.657 0.575] se [0.005 0.006 0.007 0.01  0.012 0.011] rise 0.00174 [-1e-05, 0.00318] misfit [1.  1.1 1.4 1.8 1.9 1.7]
+aer_B s [0.931 0.877 0.791 0.709 0.625 0.545] se [0.005 0.006 0.005 0.007 0.006 0.005] rise 0.00213 [0.00037, 0.00363] misfit [1.1 1.  1.1 1.3 1.1 1. ]
+B-A {2: (0.004, [-0.014, 0.02]), 6: (0.051, [0.022, 0.082]), 12: (0.178, [0.144, 0.209]), 20: (0.315, [0.254, 0.371]), 28: (0.337, [0.223, 0.451]), 36: (0.223, [0.091, 0.355])}
+A 28 R2 M0 0.502 M1 0.847 M2 0.587 gain_b 0.346 gain_c 0.085 ratio 4.05 | misfit M0 4.3 M1 2.6 M2 4.3 | asym mean|.| 0.093 z 4.9 (exact 0.000)
+A 36 R2 M0 0.346 M1 0.845 M2 0.433 gain_b 0.498 gain_c 0.087 ratio 5.74 | misfit M0 5.6 M1 3.0 M2 5.7 | asym mean|.| 0.110 z 6.0 (exact 0.000)
+B 28 R2 M0 0.779 M1 0.806 M2 0.957 gain_b 0.027 gain_c 0.178 ratio 0.15 | misfit M0 5.8 M1 5.9 M2 2.8 | asym mean|.| 0.125 z 6.1 (exact 0.000)
+B 36 R2 M0 0.627 M1 0.667 M2 0.938 gain_b 0.040 gain_c 0.311 ratio 0.13 | misfit M0 6.3 M1 6.5 M2 2.8 | asym mean|.| 0.137 z 6.7 (exact 0.000)
+aer_A 28 R2 M0 0.990 M1 0.994 M2 0.993 gain_b 0.004 gain_c 0.003 ratio 1.44 | misfit M0 1.9 M1 1.6 M2 1.7 | asym mean|.| 0.009 z 0.6 (exact 0.000)
+aer_A 36 R2 M0 0.989 M1 0.993 M2 0.993 gain_b 0.003 gain_c 0.004 ratio 0.83 | misfit M0 1.7 M1 1.5 M2 1.5 | asym mean|.| 0.006 z 0.5 (exact 0.000)
+aer_B 28 R2 M0 0.996 M1 0.997 M2 0.997 gain_b 0.001 gain_c 0.001 ratio 0.89 | misfit M0 1.1 M1 1.1 M2 1.1 | asym mean|.| 0.009 z 0.6 (exact 0.000)
+aer_B 36 R2 M0 0.996 M1 0.996 M2 0.997 gain_b 0.000 gain_c 0.001 ratio 0.11 | misfit M0 1.0 M1 1.1 M2 1.0 | asym mean|.| 0.008 z 0.6 (exact 0.000)
+cross-chain corr b_j {28: 0.2071387106715322, 36: 0.2057376526947599, 'c_i': {28: -0.05944807020986508, 36: -0.2237691324770839}}
+earlier A {2: (0.939, 0.006), 6: (0.795, 0.016), 12: (0.512, 0.018), 20: (0.294, 0.017), 28: (0.334, 0.036), 36: (0.373, 0.033)}
+repeat L 2 s_rep 0.921 s_today(12) 0.914 z 0.29 | mean p diff -0.0007 +- 0.0052 (z -0.13)
+repeat L 12 s_rep 0.551 s_today(12) 0.536 z 0.26 | mean p diff -0.0089 +- 0.0060 (z -1.48)
+repeat L 36 s_rep 0.070 s_today(12) 0.098 z -0.28 | mean p diff -0.0077 +- 0.0056 (z -1.39)
+idle A signs 6/6 mean ratio 0.71 (n=6) regression ratio 0.72 |asym|@200 hw 0.361 pred 0.483 z 25.9 tau0 max z 2.9
+    [2, 6] 0 hw -0.035+-0.014 pred 0.000 aer 0.003 exact 0.000
+    [2, 6] 100 hw 0.241+-0.014 pred 0.347 aer 0.349 exact 0.000
+    [2, 6] 200 hw 0.329+-0.014 pred 0.492 aer 0.489 exact 0.000
+    [2, 12] 0 hw -0.043+-0.015 pred -0.000 aer 0.010 exact 0.000
+    [2, 12] 100 hw 0.210+-0.014 pred 0.309 aer 0.279 exact 0.000
+    [2, 12] 200 hw 0.371+-0.014 pred 0.437 aer 0.417 exact 0.000
+    [2, 4] 0 hw 0.002+-0.013 pred 0.000 aer -0.037 exact 0.000
+    [2, 4] 100 hw 0.233+-0.014 pred 0.353 aer 0.323 exact 0.000
+    [2, 4] 200 hw 0.383+-0.014 pred 0.519 aer 0.503 exact 0.000
+idle B signs 6/6 mean ratio 0.82 (n=6) regression ratio 0.84 |asym|@200 hw 0.353 pred 0.408 z 25.2 tau0 max z 1.2
+    [2, 6] 0 hw -0.015+-0.014 pred 0.000 aer 0.010 exact 0.000
+    [2, 6] 100 hw 0.188+-0.014 pred 0.248 aer 0.251 exact 0.000
+    [2, 6] 200 hw 0.336+-0.014 pred 0.423 aer 0.418 exact 0.000
+    [2, 12] 0 hw 0.002+-0.015 pred -0.000 aer 0.009 exact 0.000
+    [2, 12] 100 hw 0.156+-0.014 pred 0.227 aer 0.196 exact 0.000
+    [2, 12] 200 hw 0.340+-0.014 pred 0.378 aer 0.357 exact 0.000
+    [2, 4] 0 hw -0.016+-0.013 pred 0.000 aer -0.037 exact 0.000
+    [2, 4] 100 hw 0.201+-0.014 pred 0.235 aer 0.217 exact 0.000
+    [2, 4] 200 hw 0.383+-0.014 pred 0.424 aer 0.415 exact 0.000
+echo A 52 T2e 40.6 cal 90.2 factor 2.22 npts 4
+echo A 53 T2e 85.2 cal 236.8 factor 2.78 npts 4
+echo A 54 T2e 105.2 cal 25.6 factor 4.11 npts 4
+echo A 55 T2e 41.6 cal 74.5 factor 1.79 npts 3
+echo B 5 T2e 38.6 cal 243.7 factor 6.31 npts 4
+echo B 6 T2e 51.1 cal 339.8 factor 6.65 npts 3
+echo B 7 T2e 38.6 cal 177.3 factor 4.59 npts 3
+echo B 8 T2e 58.8 cal 108.1 factor 1.84 npts 3
+{
+ "D1": {
+  "earlier_all_le_3": false,
+  "repeat_all_le_3": true,
+  "z_earlier": [
+   -0.8538244775513439,
+   2.8046666266640496,
+   -3.6766385680342326
+  ],
+  "z_repeat": [
+   0.2940465183505446,
+   0.2562222949166479,
+   -0.28485794950732063
+  ],
+  "pass": false
+ },
+ "D2": {
+  "pass_": true,
+  "diff_36": {
+   "diff": 0.22338053337236213,
+   "ci": [
+    0.09083596297976065,
+    0.3549114614157884
+   ]
+  }
+ },
+ "D3": {
+  "A": [
+   0.01842712704359876,
+   0.02884790269325233
+  ],
+  "B": [
+   -0.0022649173416986507,
+   0.002763230128075489
+  ],
+  "pass_": false,
+  "sign": [
+   1.0,
+   1.0
+  ]
+ },
+ "D4": {
+  "ratios": {
+   "A": {
+    "28": 4.04665768234521,
+    "36": 5.744589698351679
+   },
+   "B": {
+    "28": 0.14998314518505662,
+    "36": 0.12861934378516493
+   }
+  },
+  "pass_": false
+ },
+ "D5": {
+  "corr": {
+   "28": 0.2071387106715322,
+   "36": 0.2057376526947599,
+   "c_i": {
+    "28": -0.05944807020986508,
+    "36": -0.2237691324770839
+   }
+  },
+  "pass_": false
+ },
+ "D6": {
+  "all_signs": true,
+  "mean_ratio": 0.8173843230874988,
+  "pass_": true
+ }
+}
+saved /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/results/W1_marrakesh_chains.json in 2.5s

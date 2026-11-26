@@ -1,0 +1,142 @@
+L 2 n=15 s earlier 0.943 today 0.940 z -0.16 | mean p earlier 0.476 today 0.469 z -1.38
+L 6 n=15 s earlier 0.863 today 0.881 z 0.37 | mean p earlier 0.465 today 0.480 z 3.04
+L 12 n=15 s earlier 0.606 today 0.715 z 1.74 | mean p earlier 0.367 today 0.402 z 6.77
+L 20 n=15 s earlier 0.255 today 0.400 z 3.16 | mean p earlier 0.321 today 0.316 z -0.95
+L 28 n=15 s earlier 0.083 today 0.189 z 1.69 | mean p earlier 0.344 today 0.306 z -7.28
+L 36 n=15 s earlier 0.194 today 0.154 z -0.63 | mean p earlier 0.365 today 0.309 z -13.36
+{
+ "mean_abs_tau100": null,
+ "mean_ratio_hw_over_pred_cal": 0.8400404255831563,
+ "mean_z_tau200": 27.93748308937083,
+ "mean_abs_by_tau": {
+  "0": 0.005208333333333333,
+  "100": 0.24104817708333334,
+  "200": 0.3849283854166667
+ },
+ "echo": [
+  {
+   "qubit": 52,
+   "T2e": 40.155769653908706,
+   "T2cal": 29.643562883132557
+  },
+  {
+   "qubit": 53,
+   "T2e": 84.88547723393488,
+   "T2cal": 19.961089731769558
+  },
+  {
+   "qubit": 54,
+   "T2e": 152.5511450347814,
+   "T2cal": 272.92094093293485
+  },
+  {
+   "qubit": 55,
+   "T2e": 49.85756022709995,
+   "T2cal": 75.2724111767628
+  }
+ ],
+ "utc": "2026-11-23 14:53:30",
+ "job": "dc256k6q4uuc73a4o84g"
+}
+{
+ "52": {
+  "earlier": {
+   "T1_us": 77.499408467343,
+   "T2_us": 29.643562883132557,
+   "readout_err": 0.006591796875
+  },
+  "today": {
+   "T1_us": 42.70746950119088,
+   "T2_us": 90.16042801513616,
+   "readout_err": 0.00732421875
+  }
+ },
+ "53": {
+  "earlier": {
+   "T1_us": 225.76145739695636,
+   "T2_us": 19.961089731769558,
+   "readout_err": 0.005859375
+  },
+  "today": {
+   "T1_us": 231.5858898164089,
+   "T2_us": 236.7638539511023,
+   "readout_err": 0.0069580078125
+  }
+ },
+ "54": {
+  "earlier": {
+   "T1_us": 212.1661424877044,
+   "T2_us": 272.92094093293485,
+   "readout_err": 0.0062255859375
+  },
+  "today": {
+   "T1_us": 208.76337971675756,
+   "T2_us": 25.589345141979994,
+   "readout_err": 0.009033203125
+  }
+ },
+ "55": {
+  "earlier": {
+   "T1_us": 208.04225263433463,
+   "T2_us": 75.2724111767628,
+   "readout_err": 0.0067138671875
+  },
+  "today": {
+   "T1_us": 200.33468949264483,
+   "T2_us": 74.50884487835141,
+   "readout_err": 0.0054931640625
+  }
+ }
+}
+{
+ "A-R": {
+  "job_id": "dc3q60ds2omc738e1tgg",
+  "usage_seconds": 64,
+  "account_delta": 64,
+  "wall": 82.50583410263062,
+  "utc": "2026-11-26 03:11:12"
+ },
+ "B-R": {
+  "job_id": "dc3q6kqnj2vs73diplo0",
+  "usage_seconds": 64,
+  "account_delta": 64,
+  "wall": 80.72668504714966,
+  "utc": "2026-11-26 03:12:35"
+ },
+ "A-A": {
+  "job_id": "dc3q795s2omc738e1v80",
+  "usage_seconds": 16,
+  "account_delta": 16,
+  "wall": 22.676506996154785,
+  "utc": "2026-11-26 03:12:59"
+ },
+ "B-A": {
+  "job_id": "dc3q7fds2omc738e1vj0",
+  "usage_seconds": 16,
+  "account_delta": 16,
+  "wall": 22.670060634613037,
+  "utc": "2026-11-26 03:13:24"
+ },
+ "A-T": {
+  "job_id": "dc3q7lmq4uuc73a7ei60",
+  "usage_seconds": 0,
+  "account_delta": 6,
+  "wall": 10.784470081329346,
+  "utc": "2026-11-26 03:13:36"
+ },
+ "B-T": {
+  "job_id": "dc3q7olhdvas73bobml0",
+  "usage_seconds": 0,
+  "account_delta": 6,
+  "wall": 10.509044885635376,
+  "utc": "2026-11-26 03:13:49"
+ },
+ "A-Rrep": {
+  "job_id": "dc3q7rthdvas73bobmq0",
+  "usage_seconds": 13,
+  "account_delta": 13,
+  "wall": 20.600074291229248,
+  "utc": "2026-11-26 03:14:11"
+ }
+}
+saved /Users/bhanwar/Desktop/Bhanwar Personal/phd/mullana/paper/2_SUBMITTED/16_IJQI/REVISION_23NOV/rev_v1/noisy-qk-final/results/W1_supplement.json in 0.9s

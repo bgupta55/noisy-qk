@@ -1,0 +1,86 @@
+{
+ "experiment": "Y_derived",
+ "config": {
+  "note": "POST-HOC; not used for any verdict"
+ },
+ "provenance": {
+  "python": "3.14.5",
+  "numpy": "2.5.3",
+  "scipy": "1.18.0",
+  "sklearn": "1.9.1",
+  "machine": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "config_hash": "10dcda920370",
+  "date": "2026-11-23"
+ },
+ "wall_time_s": 0.83,
+ "results": {
+  "echo_first3": [
+   {
+    "qubit": 52,
+    "T2_first3_us": 61.30242832498646,
+    "T2_first3_se": 4.289684624510064,
+    "T2_cal_us": 29.643562883132557,
+    "T2_echo_prereg_us": 40.155769653908706,
+    "nonmonotone_after_120": false,
+    "E_120": 0.05859375,
+    "E_240": -0.099609375
+   },
+   {
+    "qubit": 53,
+    "T2_first3_us": 57.5821029176433,
+    "T2_first3_se": 3.7575391542888856,
+    "T2_cal_us": 19.961089731769558,
+    "T2_echo_prereg_us": 84.88547723393488,
+    "nonmonotone_after_120": false,
+    "E_120": -0.0029296875,
+    "E_240": 0.05859375
+   },
+   {
+    "qubit": 54,
+    "T2_first3_us": 60.43589650147461,
+    "T2_first3_se": 3.68662854023939,
+    "T2_cal_us": 272.92094093293485,
+    "T2_echo_prereg_us": 152.5511450347814,
+    "nonmonotone_after_120": true,
+    "E_120": 0.01953125,
+    "E_240": 0.1826171875
+   },
+   {
+    "qubit": 55,
+    "T2_first3_us": 49.85756022709995,
+    "T2_first3_se": 3.432117252170391,
+    "T2_cal_us": 75.2724111767628,
+    "T2_echo_prereg_us": 49.85756022709995,
+    "nonmonotone_after_120": false,
+    "E_120": 0.0166015625,
+    "E_240": -0.0244140625
+   }
+  ],
+  "y3_prediction_by_rate": {
+   "dep": {
+    "observed_dL_per_lnS": 11.993339176466366,
+    "rate_v1": 0.0575481102651626,
+    "rate_fit3": 0.08923825877291358,
+    "rate_local_at_crossing": 0.04759987989710281,
+    "pred_half_over_rate_v1": 8.688382601898931,
+    "pred_half_over_rate_fit3": 5.602977992571104,
+    "pred_half_over_rate_local": 10.504228184626841,
+    "measured_alpha": 0.5533135966392347,
+    "alpha_implied_by_obs_and_fit3_rate": 1.0702647049808278,
+    "alpha_implied_by_obs_and_local_rate": 0.570881504365017
+   },
+   "ad": {
+    "observed_dL_per_lnS": 11.265810398213901,
+    "rate_v1": 0.02458996327316968,
+    "rate_fit3": 0.027162836128311718,
+    "rate_local_at_crossing": 0.024025866880446233,
+    "pred_half_over_rate_v1": 20.333499259250797,
+    "pred_half_over_rate_fit3": 18.407503459436327,
+    "pred_half_over_rate_local": 20.810903618505087,
+    "measured_alpha": 0.2693930181267139,
+    "alpha_implied_by_obs_and_fit3_rate": 0.30601136169931437,
+    "alpha_implied_by_obs_and_local_rate": 0.27067086092783416
+   }
+  }
+ }
+}

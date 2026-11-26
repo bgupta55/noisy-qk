@@ -1,0 +1,39 @@
+{
+ "experiment": "Z2_control_N4",
+ "config": {
+  "jobs": "D1,D2 x split 0 x dep,ad",
+  "compared": "15 (L, lambda) rows per job"
+ },
+ "provenance": {
+  "python": "3.14.10",
+  "numpy": "2.5.3",
+  "scipy": "1.18.0",
+  "sklearn": "1.9.1",
+  "machine": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "config_hash": "c9ef04f1eb81",
+  "date": "2026-11-23"
+ },
+ "wall_time_s": 10.62,
+ "results": {
+  "max_abs_diff": {
+   "ad/ece": 2.531308496145357e-14,
+   "ad/ece_width": 2.2093438190040615e-14,
+   "ad/disp": 2.3556711323344942e-14,
+   "ad/spread": 4.7124102038088866e-14,
+   "ad/mean_h": 3.630429290524262e-14,
+   "ad/ece_exact_pred": 6.938893903907228e-16,
+   "ad/brier": 2.1815882433884326e-14,
+   "ad/auc": 0.0,
+   "ad/ece_const_target": 6.938893903907228e-16,
+   "dep/ece": 0.03707317073170849,
+   "dep/ece_width": 1.1100495522775589e-14,
+   "dep/disp": 3.497202527569243e-15,
+   "dep/spread": 6.994405055138486e-15,
+   "dep/mean_h": 2.248201624865942e-14,
+   "dep/ece_exact_pred": 0.0,
+   "dep/brier": 4.191091917959966e-15,
+   "dep/auc": 0.09120000000000006,
+   "dep/ece_const_target": 0.0
+  }
+ }
+}
